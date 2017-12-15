@@ -1,6 +1,6 @@
 .search {
 	text-align: center;
-	margin-top: 144px;
+	margin-top: 143px;
 }
 
 ul {
@@ -21,6 +21,8 @@ li a {
 	text-align:center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
 }
 
 .footer {
@@ -44,6 +46,14 @@ li a {
 .footer #first_section {
 	text-align: left;
 	margin-left: 30px;
+	height: 5px;
+	margin-bottom: 10px;
+}
+
+.footer #first_section p {
+	color: rgba(0,0,0,.54);
+	font-family: arial, sans-serif;
+	font-size: 15px;
 }
 
 .footer #second_section #business {
@@ -55,6 +65,25 @@ li a {
 	float: right;
 }
 
+.footer #second_section #business li a {
+	color: rgba(0,0,0,.54);
+}
+
+.footer #second_section #account li a {
+	color: rgba(0,0,0,.54);
+}
+
 hr {
 	border: none;
+}
+
+input {
+	border: 1px solid lightgrey;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+	margin-top: 21px;
+	width: 570px;
+	height: 44px;
+	box-shadow: 4px 4px lightgrey;
 }
