@@ -25,6 +25,10 @@ li a {
 	font-size: 13px;
 }
 
+.menu a {
+	padding: 10px 5px;
+}
+
 .footer {
 	position: fixed;
 	left: 0;
