@@ -25,8 +25,20 @@ li a {
 	font-size: 13px;
 }
 
+.menu {
+	margin-top: none;
+	border: none;
+	padding: none;
+	margin-right: 16px;
+}
+
 .menu a {
-	padding: 10px 5px;
+	padding: 7px 5px;
+}
+
+.menu .image {
+	width: 32px;
+	border-radius: 50%;
 }
 
 .footer {
@@ -90,4 +102,31 @@ input {
 	width: 570px;
 	height: 44px;
 	box-shadow: 4px 4px lightgrey;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.buttons button {
+	width: 140px;
+	height: 35px;
+	background-color: whitesmoke;
+	border: none;
+}
+
+.button-text {
+	color: grey;
+}
+
+.available {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.english {
+	text-decoration: none;
 }
